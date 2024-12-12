@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(33, 33, 33);
+    padding: 20px;
+    color: white;
+  }
+/* // click baruun buland */
+.click{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+.click button{
+    background-color: rgb(17, 113, 17);
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+}
+.parentcontainer{
+    display: flex;
+    justify-content: space-around;
+    /* width: 20vw;
+    height: 70vw; */
+    /* border: 1px solid rgba(255, 255, 255, 0.498); */
+    padding: 20px;
+    
+}
+.parentcontainer>div {
+    width: 20vw;
+    height: 70vw;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.498);
+    padding: 20px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    gap: 10px;
+    
+}
+.title  .count{
+margin-left: auto
+
+}
+.cricle{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.listItem{
+    display: flex;
+    align-items: center;
+}
